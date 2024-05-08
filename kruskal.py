@@ -63,22 +63,19 @@ print("Total Cost of MST:", total_cost)
 
 
 
-#Enter the number of vertices: 5
-#Enter the number of edges: 7
-#Enter edges in the format 'source destination weight':
-#0 1 4
-#0 2 2
-#1 2 5
-#1 3 10
-#2 3 3
-#2 4 2
-#3 4 6
-#Enter the starting vertex: 0
-#Shortest distances from the starting vertex:
-#Distance to 0: 0
-#Distance to 1: 4
-#istance to 2: 2
-#Distance to 3: 5
-#Distance to 4: 4
-
-#=== Code Execution Successful ===
+# Enter the number of vertices: 5
+# Enter the number of edges: 7
+# Enter edges (start end weight):
+# 0 1 4
+# 0 2 2
+# 1 2 5
+# 1 3 10
+# 2 3 3
+# 2 4 2
+# 3 4 6
+# Minimal Spanning Tree (MST):
+# Edge: 0 - 2, Cost: 2
+# Edge: 2 - 4, Cost: 2
+# Edge: 2 - 3, Cost: 3
+# Edge: 0 - 1, Cost: 4
+# Total Cost of MST: 11
